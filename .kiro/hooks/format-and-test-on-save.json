@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "format-and-test-swift-on-save",
+      "description": "Format Swift sources and run GhostNotes unit tests after Kiro saves a Swift file.",
+      "trigger": "PostFileSave",
+      "matcher": "\\.swift$",
+      "action": {
+        "type": "command",
+        "command": "set -o pipefail; swift-format format --in-place --recursive GhostNotes GhostNotesTests; xcodebuild test -project GhostNotes.xcodeproj -scheme GhostNotes -destination 'platform=iOS Simulator,name=iPhone 16'"
+      },
+      "timeout": 300
+    }
+  ]
+}

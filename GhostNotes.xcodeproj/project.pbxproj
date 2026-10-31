@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B1D7A5106B414D7EBD1E3E2 /* GhostTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DF5A073A22D0F47D0E4BA2 /* GhostTheme.swift */; };
+		0F3E884D8A1C206D0516CC27 /* SmokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0648D053D40CAEAAD8A04496 /* SmokeTests.swift */; };
+		173357DA6BFB644A4C26D02E /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7228C063BF09152BCA6980E6 /* RecordingView.swift */; };
+		2DB3B832751B015D765D158B /* AudioRecordingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE553B2192D2EDC1A37F5E /* AudioRecordingService.swift */; };
+		30461BDF85E692819A62FB33 /* GhostNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D272CF9599CB59F506932A /* GhostNotesApp.swift */; };
+		45DEBFD1A4A2BCFF0256F825 /* MinutesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3333ACDC669CE1292DCECB1 /* MinutesDetailView.swift */; };
+		477911ADF3E27D9926AEDCC9 /* Minutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5220D446F51673E2F091996 /* Minutes.swift */; };
+		51B9429F5254287CADDE1A99 /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4E268352EBD761FAD29688 /* Meeting.swift */; };
+		5C8AB97E514AE0B160A791E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6322836C06DE74F5AEF070 /* ContentView.swift */; };
+		75A73E89E9D59B20CB5B31FF /* MinutesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CFA0FFE93A787B6AC9A602 /* MinutesListView.swift */; };
+		8979B4ECED950C3682E6B29E /* TranscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E67174595B22116A7A998 /* TranscriptionService.swift */; };
+		CAC4959D223AA120A0975843 /* ActionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5EEF5A0DA3407D1F62252F /* ActionItem.swift */; };
+		E5BE2AA35AC255781585DA75 /* MinutesGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5284780E3B4F951CFDCA2A /* MinutesGenerator.swift */; };
+		F598602B0DBBE1C1A312453C /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA8F3CAE839E4DF3E2A3161 /* ExportService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB85C2A1E8EC5020BE6F356F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5B92A30EF955D15CE631E49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71AFDE0C796EBA9293F28855;
+			remoteInfo = GhostNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0648D053D40CAEAAD8A04496 /* SmokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokeTests.swift; sourceTree = "<group>"; };
+		1F6322836C06DE74F5AEF070 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		21D272CF9599CB59F506932A /* GhostNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostNotesApp.swift; sourceTree = "<group>"; };
+		24DF5A073A22D0F47D0E4BA2 /* GhostTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostTheme.swift; sourceTree = "<group>"; };
+		33DE553B2192D2EDC1A37F5E /* AudioRecordingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordingService.swift; sourceTree = "<group>"; };
+		49F9A0125707F19D4B55D3C6 /* GhostNotesTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = GhostNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5284780E3B4F951CFDCA2A /* MinutesGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutesGenerator.swift; sourceTree = "<group>"; };
+		4CDAE07F8EC79F731317E919 /* GhostNotes.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = GhostNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0E67174595B22116A7A998 /* TranscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionService.swift; sourceTree = "<group>"; };
+		7228C063BF09152BCA6980E6 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		7F4E268352EBD761FAD29688 /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
+		91CFA0FFE93A787B6AC9A602 /* MinutesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutesListView.swift; sourceTree = "<group>"; };
+		BC5EEF5A0DA3407D1F62252F /* ActionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionItem.swift; sourceTree = "<group>"; };
+		C3333ACDC669CE1292DCECB1 /* MinutesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutesDetailView.swift; sourceTree = "<group>"; };
+		CCA8F3CAE839E4DF3E2A3161 /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		F5220D446F51673E2F091996 /* Minutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minutes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		06BD67E348EBB6495319A004 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5F056B0DFE0B2B1B664FDDFA /* Models */,
+				A37DEEC559F541D1F1AE1939 /* Services */,
+				40AE6CD3B7B0F6A3ADFF3824 /* Theme */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		07BEE44A582DC6DA3A5E33FC /* GhostNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0648D053D40CAEAAD8A04496 /* SmokeTests.swift */,
+			);
+			path = GhostNotesTests;
+			sourceTree = "<group>";
+		};
+		0D01242551438894BAC18A0C /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				7228C063BF09152BCA6980E6 /* RecordingView.swift */,
+			);
+			path = Recording;
+			sourceTree = "<group>";
+		};
+		40AE6CD3B7B0F6A3ADFF3824 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				24DF5A073A22D0F47D0E4BA2 /* GhostTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		5F056B0DFE0B2B1B664FDDFA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC5EEF5A0DA3407D1F62252F /* ActionItem.swift */,
+				7F4E268352EBD761FAD29688 /* Meeting.swift */,
+				F5220D446F51673E2F091996 /* Minutes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		63B35B669AE19E6D66C230B4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F526F86F6071D06FE62E6A57 /* Minutes */,
+				0D01242551438894BAC18A0C /* Recording */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A37DEEC559F541D1F1AE1939 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				33DE553B2192D2EDC1A37F5E /* AudioRecordingService.swift */,
+				CCA8F3CAE839E4DF3E2A3161 /* ExportService.swift */,
+				4C5284780E3B4F951CFDCA2A /* MinutesGenerator.swift */,
+				5B0E67174595B22116A7A998 /* TranscriptionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B483FD8D7D068F5FF4D154E1 = {
+			isa = PBXGroup;
+			children = (
+				FFE2F98FD87CB85A5403926A /* GhostNotes */,
+				07BEE44A582DC6DA3A5E33FC /* GhostNotesTests */,
+				FB56A96EAD881C626154F126 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC20969DC7496A949500514 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1F6322836C06DE74F5AEF070 /* ContentView.swift */,
+				21D272CF9599CB59F506932A /* GhostNotesApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F526F86F6071D06FE62E6A57 /* Minutes */ = {
+			isa = PBXGroup;
+			children = (
+				C3333ACDC669CE1292DCECB1 /* MinutesDetailView.swift */,
+				91CFA0FFE93A787B6AC9A602 /* MinutesListView.swift */,
+			);
+			path = Minutes;
+			sourceTree = "<group>";
+		};
+		FB56A96EAD881C626154F126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CDAE07F8EC79F731317E919 /* GhostNotes.app */,
+				49F9A0125707F19D4B55D3C6 /* GhostNotesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFE2F98FD87CB85A5403926A /* GhostNotes */ = {
+			isa = PBXGroup;
+			children = (
+				ECC20969DC7496A949500514 /* App */,
+				06BD67E348EBB6495319A004 /* Core */,
+				63B35B669AE19E6D66C230B4 /* Features */,
+			);
+			path = GhostNotes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71AFDE0C796EBA9293F28855 /* GhostNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2087EF0949222D16E5265F /* Build configuration list for PBXNativeTarget "GhostNotes" */;
+			buildPhases = (
+				EAA4CCCB23D0541C162BC1E6 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GhostNotes;
+			packageProductDependencies = (
+			);
+			productName = GhostNotes;
+			productReference = 4CDAE07F8EC79F731317E919 /* GhostNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A20BEF59D52C7ACBE7D8ED17 /* GhostNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6484794DDFBD4C1CBFFBEF5 /* Build configuration list for PBXNativeTarget "GhostNotesTests" */;
+			buildPhases = (
+				49FDDF664D4C8C02458999D7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD2901B1DEA90D39825120D /* PBXTargetDependency */,
+			);
+			name = GhostNotesTests;
+			packageProductDependencies = (
+			);
+			productName = GhostNotesTests;
+			productReference = 49F9A0125707F19D4B55D3C6 /* GhostNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5B92A30EF955D15CE631E49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					71AFDE0C796EBA9293F28855 = {
+						DevelopmentTeam = "";
+					};
+					A20BEF59D52C7ACBE7D8ED17 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = F2558FCA708BB2698C25F952 /* Build configuration list for PBXProject "GhostNotes" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B483FD8D7D068F5FF4D154E1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FB56A96EAD881C626154F126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71AFDE0C796EBA9293F28855 /* GhostNotes */,
+				A20BEF59D52C7ACBE7D8ED17 /* GhostNotesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49FDDF664D4C8C02458999D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3E884D8A1C206D0516CC27 /* SmokeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA4CCCB23D0541C162BC1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC4959D223AA120A0975843 /* ActionItem.swift in Sources */,
+				2DB3B832751B015D765D158B /* AudioRecordingService.swift in Sources */,
+				5C8AB97E514AE0B160A791E1 /* ContentView.swift in Sources */,
+				F598602B0DBBE1C1A312453C /* ExportService.swift in Sources */,
+				30461BDF85E692819A62FB33 /* GhostNotesApp.swift in Sources */,
+				0B1D7A5106B414D7EBD1E3E2 /* GhostTheme.swift in Sources */,
+				51B9429F5254287CADDE1A99 /* Meeting.swift in Sources */,
+				477911ADF3E27D9926AEDCC9 /* Minutes.swift in Sources */,
+				45DEBFD1A4A2BCFF0256F825 /* MinutesDetailView.swift in Sources */,
+				E5BE2AA35AC255781585DA75 /* MinutesGenerator.swift in Sources */,
+				75A73E89E9D59B20CB5B31FF /* MinutesListView.swift in Sources */,
+				173357DA6BFB644A4C26D02E /* RecordingView.swift in Sources */,
+				8979B4ECED950C3682E6B29E /* TranscriptionService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFD2901B1DEA90D39825120D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71AFDE0C796EBA9293F28855 /* GhostNotes */;
+			targetProxy = BB85C2A1E8EC5020BE6F356F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58F348CE08B560C7F7C7659A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxdwinter.GhostNotesTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GhostNotes.app/GhostNotes";
+			};
+			name = Release;
+		};
+		659CC92A26B278BB8FA24521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GhostNotes;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "GhostNotes uses the microphone to capture meetings.";
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "GhostNotes adds meeting action items to Reminders when you ask.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "GhostNotes transcribes meetings on this device.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxdwinter.GhostNotes;
+				PRODUCT_NAME = GhostNotes;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		783FFFEEAC2D08F90F955DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		B1B50333F9E252A94838562B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		ECCCABC8F2F0CD5E13A88B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GhostNotes;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "GhostNotes uses the microphone to capture meetings.";
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "GhostNotes adds meeting action items to Reminders when you ask.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "GhostNotes transcribes meetings on this device.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxdwinter.GhostNotes;
+				PRODUCT_NAME = GhostNotes;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F604F3513DF7DA98B095750B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxdwinter.GhostNotesTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GhostNotes.app/GhostNotes";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6484794DDFBD4C1CBFFBEF5 /* Build configuration list for PBXNativeTarget "GhostNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F604F3513DF7DA98B095750B /* Debug */,
+				58F348CE08B560C7F7C7659A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CF2087EF0949222D16E5265F /* Build configuration list for PBXNativeTarget "GhostNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659CC92A26B278BB8FA24521 /* Debug */,
+				ECCCABC8F2F0CD5E13A88B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F2558FCA708BB2698C25F952 /* Build configuration list for PBXProject "GhostNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B50333F9E252A94838562B /* Debug */,
+				783FFFEEAC2D08F90F955DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5B92A30EF955D15CE631E49 /* Project object */;
+}

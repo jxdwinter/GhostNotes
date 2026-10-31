@@ -1,0 +1,25 @@
+# GhostNotes Scaffold Tasks
+
+- [x] 1. Create repository metadata and Kiro project guidance
+  - [x] Add MIT license, README, safe config example, and required `.gitignore` rules.
+  - [x] Add product, technology, and structure steering documents.
+  - [x] Add a documented PostFileSave hook that formats Swift and runs unit tests.
+- [x] 2. Create the Xcode project and app target
+  - [x] Add an iOS 17+ SwiftUI application target and unit-test target.
+  - [x] Configure the project for `xcodebuild`, SwiftData, and simulator execution.
+- [x] 3. Implement SwiftData models and theme
+  - [x] Add `Meeting`, `Minutes`, `ActionItem`, and ghost/Halloween design tokens.
+- [x] 4. Implement service protocols and scaffold implementations
+  - [x] Add recording, transcription, minutes generation, export, and Gemini client skeletons.
+  - [x] Keep all runtime behavior deterministic and API-key free.
+- [x] 5. Implement app entry and the three-screen user flow
+  - [x] Add app/model-container setup and seed mock data.
+  - [x] Add Recording, Minutes list, and Minutes detail/export views.
+  - [x] Connect navigation and share-sheet behavior.
+- [x] 6. Add smoke tests
+  - [x] Test model creation, minutes formatting, and Markdown export output.
+- [ ] 7. Validate and publish
+  - [x] Compile the app and unit-test bundle with `xcodebuild build-for-testing`.
+  - [ ] Run the unit tests and launch the app in an iOS simulator. The installed Xcode 27.2 cannot access a simulator because the host CoreSimulator framework is older.
+  - [x] Check tracked files, ignored files, history, and secrets.
+  - [ ] Commit and push `main` to the remote.

@@ -1,0 +1,51 @@
+name: GhostNotes
+options:
+  bundleIdPrefix: com.jxdwinter
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  developmentLanguage: en
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    DEVELOPMENT_TEAM: ""
+targets:
+  GhostNotes:
+    type: application
+    platform: iOS
+    sources:
+      - path: GhostNotes
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jxdwinter.GhostNotes
+        PRODUCT_NAME: GhostNotes
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: GhostNotes
+        INFOPLIST_KEY_NSMicrophoneUsageDescription: GhostNotes uses the microphone to capture meetings.
+        INFOPLIST_KEY_NSSpeechRecognitionUsageDescription: GhostNotes transcribes meetings on this device.
+        INFOPLIST_KEY_NSRemindersFullAccessUsageDescription: GhostNotes adds meeting action items to Reminders when you ask.
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SUPPORTS_MACCATALYST: NO
+  GhostNotesTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: GhostNotesTests
+    dependencies:
+      - target: GhostNotes
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jxdwinter.GhostNotesTests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/GhostNotes.app/GhostNotes"
+schemes:
+  GhostNotes:
+    build:
+      targets:
+        GhostNotes: all
+        GhostNotesTests: [test]
+    test:
+      config: Debug
+      targets:
+        - name: GhostNotesTests

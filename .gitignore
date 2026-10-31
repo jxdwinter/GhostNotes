@@ -1,0 +1,15 @@
+# Xcode and macOS
+xcuserdata/
+DerivedData/
+.DS_Store
+*.xcuserstate
+
+# Local configuration and secrets
+Config.secrets.xcconfig
+*.secrets.xcconfig
+.env
+.env.*
+
+# Swift Package Manager artifacts
+.build/
+.swiftpm/
