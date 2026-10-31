@@ -22,4 +22,4 @@
   - [x] Compile the app and unit-test bundle with `xcodebuild build-for-testing`.
   - [ ] Run the unit tests and launch the app in an iOS simulator. The installed Xcode 27.2 cannot access a simulator because the host CoreSimulator framework is older.
   - [x] Check tracked files, ignored files, history, and secrets.
-  - [ ] Commit and push `main` to the remote.
+  - [x] Commit and push `main` to the remote.
